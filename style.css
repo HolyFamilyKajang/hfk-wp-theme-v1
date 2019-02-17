@@ -1,0 +1,374 @@
+/*
+Theme Name: Twenty Seventeen
+Theme URI: http://www.shawninvento.com
+Author: Shawn Invento
+Author URI: http://www.shawninvento.com
+Description: A custom theme for the Church of the Holy Family Kajang
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hfk-wp-theme
+*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.pageheader{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:100px;
+    /*background-color:rgba(0,0,0,0.8);*/
+    /*color:white;*/
+    background-color:white;
+    display:flex;
+    align-items:center;
+    z-index:10000;
+}
+.pageheader a{
+    color:rgba(0,0,0,1);
+    text-decoration:none;
+}
+.pageheader a:hover{
+    color:rgba(0,0,0,0.5);
+}
+.pageheader-navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:100%;
+}
+.pageheader-clearfix{
+    margin-top:100px;
+}
+.pageheader-logo{
+    width:100px;
+    display:flex;
+    align-items:center;
+}
+@media screen and (max-width:900px){
+    .pageheader-menu-lg{
+        display:none;
+    }
+    .pageheader-menu-sm{
+        display:block;
+    }
+    .pageheader{
+        height:60px;
+    }
+    .pageheader-clearfix{
+        margin-top:60px;
+    }
+    .pageheader-logo-primary{
+        display:none;
+    }
+    .pageheader-logo-secondary{
+        display:block;
+        width:100%;
+    }
+    
+}
+@media screen and (min-width:901px){
+    .pageheader-menu-lg{
+        display:block;
+    }
+    .pageheader-menu-sm{
+        display:none;
+    }
+    .pageheader-logo-primary{
+        display:block;
+        width:60px;
+    }
+    .pageheader-logo-secondary{
+        display:none;
+    }
+}
+@media screen and (max-width:1200px){
+    .content-container{
+        width:100%;
+        padding-left:1.25rem;
+        padding-right:1.25rem;
+        margin:auto;
+    }
+}
+@media screen and (min-width:1201px){
+    .content-container{
+        width:1200px;
+        padding-left:1.25rem;
+        padding-right:1.25rem;
+        margin:auto;
+    }
+}
+.pagefooter{
+    background-color:rgba(0,0,0,0.8);
+    color:white;
+}
+.pagefooter a{
+    color:white;
+}
+.aspect-ratio-16-9{
+    position:relative;
+    width:100%;
+    padding-bottom:56.25%;
+    overflow:hidden;
+}
+.aspect-ratio-16-9 img{
+    position:absolute;
+    left:0;
+    width:100%;
+}
+.aspect-ratio-1-1{
+    position:relative;
+    width:100;
+    padding-bottom:100%;
+    overflow:hidden;
+}
+.aspect-ratio-1-1 img{
+    position:absolute;
+    left:0;
+    width:100%;
+}
+.text-bold{
+    font-weight:bold;
+}
+.text-decoration-none{
+    text-decoration:none;
+}
+.text-decoration-none a{
+    text-decoration:none;
+}
+a.text-decoration-none{
+    text-decoration:none;
+}
+.col-bottom-fix{
+    margin-bottom:30px;
+}
+.fs-80pc{
+    font-size:80%;
+}
+.fs-85pc{
+    font-size:85%;
+}
+.fs-100pc{
+    font-size:100%;
+}
+.fs-110pc{
+    font-size:110%;
+}
+.fs-120pc{
+    font-size:120%;
+}
+.fs-130pc{
+    font-size:130%;
+}
+#SmallMenu a{
+    color:rgba(0,0,0,1);
+}
+.card.ministry-card{
+    border-radius:0px;
+    height:100%;
+}
+.card.ministry-card a{
+    text-decoration:none;
+}
+.card.ministry-card h5{
+    font-weight:bold;
+}
+.bulletin-block{
+    margin-bottom:1.5rem;
+}
+.bulletin-header{
+    font-weight:bold;
+}
+.bulletin-body{
+    margin-bottom:1rem;
+    text-align:justify;
+}
+.bg-gradient-lawrencium{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.btn-lawrencium{
+    color:white;
+    border:1px solid white;
+    border-radius:0px;
+    font-weight:bold;
+}
+.btn-lawrencium:hover{
+    background-color:white;
+}
+
+html { margin-top: 0px !important; }
+* html body { margin-top: 0px !important; }
+@media screen and ( max-width: 782px ) {
+    html { margin-top: 0px !important; }
+    * html body { margin-top: 0px !important; }
+}
+.hoverable{
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor:pointer;
+}
+.hoverable:hover{
+    box-shadow: 0 5px 28px rgba(0,0,0,0.25), 0 3px 10px rgba(0,0,0,0.22);
+}
+.front-page-card{
+    border:none;
+    border-radius:0px;
+}
+.front-page-card .card-body{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius:0px;
+    font-weight:bold;
+}
+.front-page-card a{
+    text-decoration:none;
+    color:rgba(0,0,0,1);
+}
+.front-page-card:hover a{
+    color:rgba(0,0,0,0.5);
+}
+.front-page-card a:hover{
+    text-decoration:none;
+}
+.front-page-card .card-img-top{
+    border:none;
+    border-radius:0px;
+}
+.overflowable-container{
+    width:100%;
+    overflow:auto;
+}
+#bitnami-banner{
+    display:none;
+}
+.icon-card{
+    text-align:center;
+}
+.icon-card .icon-area{
+    padding-top:1.25rem;
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+}
+.icon-card .card-body{
+    font-weight:bold;
+}
+.btn{
+    border-radius:0px;
+}
+#Slider{
+    width:100%;
+    max-height:550px;
+    overflow:hidden;
+}
+.event-item{
+    display:flex;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    border-top:1px solid #dee2e6!important;
+}
+.event-thumbnail{
+    min-width:100px;
+}
+.event-description{
+    flex-grow:1;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.bec-card{
+    padding:0px;
+}
+.bec-card .bec-zone{
+    cursor: pointer;
+}
+.bec-card.opened .bec-zone{
+    color:white;
+    background-color:rgba(0,0,0,0.5);
+}
+.bec-card.opened .bec-zone i{
+    color:white;
+}
+.bec-card .bec-info-extended{
+    display:none;
+}
+.bec-card.opened .bec-info-extended{
+    display:block;
+}
+.bec-card .bec-zone{
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.bec-card .bec-info-extended{
+    padding-left:1.25rem;
+    padding-right:1.25rem;
+}
+.priest-card{
+    border-radius:0px;
+    border:none;
+    text-align:center;
+}
+.priest-card a{
+    text-decoration:none;
+    color:rgba(0,0,0,1);
+}
+
+.priest-card .card-body{
+    border:none;
+}
+.priest-card:hover a{
+    color:rgba(0,0,0,0.6);
+}
+.goto{
+    cursor: pointer;
+}
+@media screen and (max-width:900px) and (min-width:768px){
+    .slider-header{
+        font-size:170%
+    }
+}
+@media screen and (max-width:768px) and (min-width:550px){
+    .slider-header{
+        font-size:170%;
+    }
+}
+@media screen and (max-width:550px){
+    .slider-header{
+        font-size:150%;
+    }
+}
+a.link-black{
+    color:rgba(0,0,0,1);
+}
+a.link-black:hover{
+    color:rgba(0,0,0,0.6);
+}
+.btn-facebook{
+    background:#3B5998;
+    color:white;
+    font-weight:bold;
+}
+.btn-instagram{
+    background:#517fa4;
+    color:white;
+    font-weight:bold;
+}
+.btn-facebook:hover,.btn-instagram:hover{
+    opacity:0.7;
+    color:white;
+}
+.description-card{
+    border:none;
+}
+.description-card .card-body{
+    padding-left:0px;
+    padding-right:0px;
+}
+.description-card h5{
+    font-weight:bold;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
