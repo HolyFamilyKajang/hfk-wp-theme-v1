@@ -35,7 +35,7 @@
                     window.location.href=location;
                 })
                 $("#MassTimesButton").on("click",function(){
-                    var scrollHeight=$("#Slider").outerHeight();
+                    var scrollHeight=$("#MainSlider").outerHeight();
                     $("html,body").animate({
                         scrollTop:scrollHeight+2
                     },"slow");
