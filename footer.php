@@ -78,6 +78,7 @@
                         <a href="<?=$siteRoot?>/bec" class="list-group-item">BEC</a>
                         <a href="<?=$siteRoot?>/calendar" class="list-group-item">Calendar</a>
                         <a href="<?=$siteRoot?>/forms" class="list-group-item">Forms</a>
+                        <a href="<?=$siteRoot?>/church-restoration" class="list-group-item">Church Restoration</a>
                         <a href="<?=$siteRoot?>/contact-us" class="list-group-item">Contact Us</a>
                     </div>
                 </div>
