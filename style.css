@@ -90,6 +90,9 @@ body{
         padding-right:1.25rem;
         margin:auto;
     }
+    .content-container-stretch{
+        padding:0px;
+    }
 }
 @media screen and (min-width:1201px){
     .content-container{
@@ -257,7 +260,7 @@ html { margin-top: 0px !important; }
 .btn{
     border-radius:0px;
 }
-#Slider{
+.slider-outer{
     width:100%;
     max-height:550px;
     overflow:hidden;
@@ -371,4 +374,22 @@ a.link-black:hover{
 }
 .overflow-hidden{
     overflow: hidden;
+}
+.image-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:rgba(0,0,0,0.5)
+}
+.image-overlay-content{
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:flex;
+    align-items:center;
+    text-align:center
 }

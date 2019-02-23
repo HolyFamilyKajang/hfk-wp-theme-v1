@@ -60,6 +60,11 @@
 
                     return false;
                 })
+                $(".bec-card").on("click",function(){
+                    $(this).siblings(".bec-card").removeClass("opened");
+                    $(this).toggleClass("opened");
+                    
+                })
             })
         </script>
     </head>
@@ -80,7 +85,6 @@
                         <a class="mx-2" href="<?=$siteRoot?>/bec">BEC</a>
                         <a class="mx-2" href="<?=$siteRoot?>/calendar">Calendar</a>
                         <a class="mx-2" href="<?=$siteRoot?>/forms">Forms</a>
-						<a class="ml-2" href="<?=$siteRoot?>/church-restoration">Church Restoration</a>
                         <a class="ml-2" href="<?=$siteRoot?>/contact-us">Contact Us</a>
                     </div>
                     <div class="pageheader-menu-sm">

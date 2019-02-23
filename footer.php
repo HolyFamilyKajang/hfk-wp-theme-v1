@@ -61,6 +61,12 @@
                             <a href="https://www.franciscanmedia.org/sacraments/">The 7 Sacraments</a>
                         </div>
                     </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
+                        <div class="text-bold">Fund Raising</div>
+                        <div>
+                            <a href="<?=$siteRoot?>/church-restoration">Church Restoration</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="content-container text-center text-bold fs-80pc">
@@ -78,7 +84,6 @@
                         <a href="<?=$siteRoot?>/bec" class="list-group-item">BEC</a>
                         <a href="<?=$siteRoot?>/calendar" class="list-group-item">Calendar</a>
                         <a href="<?=$siteRoot?>/forms" class="list-group-item">Forms</a>
-                        <a href="<?=$siteRoot?>/church-restoration" class="list-group-item">Church Restoration</a>
                         <a href="<?=$siteRoot?>/contact-us" class="list-group-item">Contact Us</a>
                     </div>
                 </div>
