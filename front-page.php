@@ -64,18 +64,14 @@
 ?>
 <div id="Slider" style="position:relative">
     <div>
-        <img src="<?=$themeRoot?>/assets/churchimg2.jpg" class="w-100"/>
+        <img src="<?=$themeRoot?>/assets/banner.png" class="w-100"/>
     </div>
     <div style="position:absolute;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5)"></div>
-    <div style="position:absolute;top:0;left:0;right:0;bottom:0;display:flex;align-items:center;text-align:center">
-        <div class="content-container text-white">
-            <div>
-                <img src="<?=$themeRoot?>/assets/HFKLogoOnly.png" alt="HFK Primary Logo" class="church-banner-img" style="width:20%">
-            </div>
-            <h1 class="text-bold slider-header"><span style="font-size:50%">CHURCH OF THE</span><br>HOLY FAMILY<br>KAJANG</h1>
-            <div class="d-lg-block d-md-block d-sm-none d-none mt-4">
-                <a href="https://www.google.com.my/maps/place/Church+of+The+Holy+Family+(1899)/@2.988675,101.7883941,17z/data=!3m1!4b1!4m5!3m4!1s0x31cdcb838c6da811:0xa716824c78151353!8m2!3d2.988675!4d101.7905828?hl=en&authuser=0" class="btn btn-lg btn-lawrencium">FIND US</a>
-                <a href="#" id="MassTimesButton" class="btn btn-lg btn-lawrencium">MASS TIMES</a>
+    <div style="position:absolute;top:0;left:0;right:0;bottom:0;display:flex;align-items:flex-end;text-align:center">
+        <div class="content-container text-white" style="margin:0; margin-bottom:40px;">
+            
+            <div class="d-lg-block d-md-block d-sm-none d-none mt-4" style="padding-left:50px;">
+                <a href="church-restoration" class="btn btn-lg btn-lawrencium">FIND OUT MORE</a>
             </div>
         </div>
     </div>

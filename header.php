@@ -19,7 +19,7 @@
             name="keywords" 
             content="holy,family,church,kajang,selangor,malaysia,hfc,hfk,parish,parishoners,events,ministry,ministries,clusters,activities,sunday,school,mass,times,schedule,kuala lumpur archdiocese,christian,bm,mandarin,tamil,kajang parish,gereja,katolik,rcia,svdp">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="<?=$themeRoot?>/assets/HFKLogo1.png">
+        <link rel="shortcut icon" href="<?=$themeRoot?>/assets/HFKLogo1.ico">
         <link rel="stylesheet" href="<?=$themeRoot?>/assets/Bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?=$themeRoot?>/assets/Bootstrap/css/bootstrap-grid.min.css">
         <link rel="stylesheet" href="<?=$themeRoot?>/assets/Bootstrap/css/bootstrap-reboot.min.css">
@@ -80,6 +80,7 @@
                         <a class="mx-2" href="<?=$siteRoot?>/bec">BEC</a>
                         <a class="mx-2" href="<?=$siteRoot?>/calendar">Calendar</a>
                         <a class="mx-2" href="<?=$siteRoot?>/forms">Forms</a>
+						<a class="ml-2" href="<?=$siteRoot?>/church-restoration">Church Restoration</a>
                         <a class="ml-2" href="<?=$siteRoot?>/contact-us">Contact Us</a>
                     </div>
                     <div class="pageheader-menu-sm">
