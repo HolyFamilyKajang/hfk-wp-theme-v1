@@ -65,6 +65,7 @@
                     $(this).toggleClass("opened");
                     
                 })
+                
             })
         </script>
     </head>

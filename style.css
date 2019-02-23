@@ -393,3 +393,15 @@ a.link-black:hover{
     align-items:center;
     text-align:center
 }
+#crbanner-overlay{
+    display:none;
+}
+#crbanner-overlay-content{
+    display:none;
+}
+#crbanner:hover #crbanner-overlay{
+    display:block;
+}
+#crbanner:hover #crbanner-overlay-content{
+    display:flex;
+}

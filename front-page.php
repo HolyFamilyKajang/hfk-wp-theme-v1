@@ -129,18 +129,18 @@
         </div>
     </div>
 </div>
-<div style="position:relative;background-color:#eff6e8">
+<div id="crbanner" style="position:relative;background-color:#eff6e8">
     <div class="content-container content-container-stretch">
         <a href="<?=$siteRoot?>/church-restoration"><img src="<?=$themeRoot?>/assets/churchrestorationbanner-transparent.png" class="w-100"/></a>
     </div>
-    <!---<div class="image-overlay"></div>
-    <div class="image-overlay-content">
-        <div class="content-container text-white" style="margin:0; margin-bottom:40px;">
-            <div class="mt-4 text-center">
+    <div id="crbanner-overlay" class="image-overlay"></div>
+    <div id="crbanner-overlay-content" class="image-overlay-content">
+        <div class="content-container text-white">
+            <div class="text-center">
                 <a href="church-restoration" class="btn btn-lg btn-lawrencium">FIND OUT MORE</a>
             </div>
         </div>
-    </div>--->
+    </div>
 </div>
 <div id="Ministries" class="py-5 bg-light border-top">
     <div class="content-container text-center">
