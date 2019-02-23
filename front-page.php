@@ -137,7 +137,7 @@
     <div id="crbanner-overlay-content" class="image-overlay-content">
         <div class="content-container text-white">
             <div class="text-center">
-                <a href="church-restoration" class="btn btn-lg btn-lawrencium">FIND OUT MORE</a>
+                <a href="<?=$siteRoot?>/church-restoration" class="btn btn-lg btn-lawrencium">FIND OUT MORE</a>
             </div>
         </div>
     </div>

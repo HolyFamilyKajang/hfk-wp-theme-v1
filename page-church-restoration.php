@@ -189,14 +189,14 @@
     </div>
     <div class="list-group">
     <?php
-        if($Array){
+        /*if($Array){
             foreach($Array2 as $Info):
                 setup_postdata($Info);
                 $postTitle=$Info -> post_title;
                 $postContent=$Info -> post_content;
                 include("template-parts/bec-card.php");
             endforeach;
-        }
+        }*/
     ?>
     </div>
 </div>
