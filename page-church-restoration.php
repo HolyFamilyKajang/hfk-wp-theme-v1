@@ -25,7 +25,8 @@
     <h1 class="text-bold text-center mb-4">Church Restoration</h1>
     <h3 class="text-bold text-center mb-4">How can I help?</h3>
     <div class="mb-4">
-        <img src="<?=$themeRoot?>/assets/pledge-infor.jpg" class="w-100"/>
+        <img src="<?=$themeRoot?>/assets/pledge-infor.jpg" class="w-100 d-lg-block d-md-block d-sm-none d-none"/>
+        <img src="<?=$themeRoot?>/assets/pledge-infor-mobile.jpg" class="w-100 d-lg-none d-md-none d-sm-block d-block"/>
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 col-bottom-fix">
