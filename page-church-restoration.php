@@ -40,9 +40,9 @@
                     
                     </div>
                 </div>
-                <div class="card-footer">
+<!--                 <div class="card-footer">
                     <h5 class="text-bold">Target: RM 300,000</h5>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 col-bottom-fix">
@@ -64,20 +64,20 @@
                             <br>
                             AmBank
                             <br>
-                            Payment Reference: HFK Restoration Fund
+                            Payment Reference: RF
                         </div>
                     </div>
                 </div>
-                <div class="card-footer">
+<!--                 <div class="card-footer">
                     <h5 class="text-bold">Target: RM 350,000</h5>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="col-12 col-bottom-fix">
             <div class="card rounded-0">
                 <div class="card-body">
                     <h5 class="text-bold">Important Notes</h5>
-                    <p>Any contributions, donations or sponsorships made using online banking MUST use the reference code of <b>"HFK Restoration Fund"</b> without the quotation marks.</p>
+                    <p>Any contributions, donations or sponsorships made using online banking MUST use the reference code of <b>"RF"</b> without the quotation marks.</p>
                     <p>The pledge card is for <b>internal circulation ONLY</b>.</p>
                     <div>
                         Any donors contributing <b>a lump sum of RM25,000.00 and above</b>, 
