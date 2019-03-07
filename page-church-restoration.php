@@ -34,7 +34,7 @@
                 <div class="card-body">
                     <h5 class="text-bold">Pledge Contributions</h5>
                     <div>
-                        Pledge contributions are collected by your Zone or BEC leaders. Follow the instructions on the infographic above.
+                        Pledge cards can be collected from your zone or BEC leaders. Pledge payment(s) can be made at the Wisdom Room after every weekend mass.
                     </div>
                     <div>
                     
