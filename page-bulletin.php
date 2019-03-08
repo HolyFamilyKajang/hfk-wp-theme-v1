@@ -72,34 +72,10 @@
                         include("template-parts/post-content-bulletin.php");
                     endforeach;
                 }
+                else{
+                    include("template-parts/post-content-bulletin-none.php");
+                }
             ?>
-            <!---<div class="alert alert-success text-center">
-                There are no announcements
-            </div>--->
-            <!---<div class="bulletin-block mb-4">
-                <h3 class="bulletin-header">Pongal Celebration</h3>
-                <div class="bulletin-body">
-                    The Tamil Apostolate is organizing a Pongal Celebration on <b>20/1/2019 from 5pm to 9pm</b>.
-                    In conjunction with this the team is looking for sponsorship and 
-                    selling lucky draw coupons at the Book Barrow to raise funds and they are seeking donations for the Banana leaf dinner that day. Kindly support them
-                </div>
-                <div class="bulletin-footer" style="font-size:90%">
-                    Posted on 1/1/2019
-                </div>
-                <hr>
-            </div>
-            <div class="bulletin-block mb-4">
-                <h3 class="bulletin-header">Pongal Celebration</h3>
-                <div class="bulletin-body">
-                    The Tamil Apostolate is organizing a Pongal Celebration on <b>20/1/2019 from 5pm to 9pm</b>.
-                    In conjunction with this the team is looking for sponsorship and 
-                    selling lucky draw coupons at the Book Barrow to raise funds and they are seeking donations for the Banana leaf dinner that day. Kindly support them
-                </div>
-                <div class="bulletin-footer" style="font-size:90%">
-                    Posted on 1/1/2019
-                </div>
-                <hr>
-            </div>--->
         </div>
         <div class="col-lg-3 col-md-4 col-sm-12 col-12 col-bottom-fix text-lg-left text-md-left text-sm-center text-center">
             <h5 class="text-bold mb-3">Get your copy</h5>

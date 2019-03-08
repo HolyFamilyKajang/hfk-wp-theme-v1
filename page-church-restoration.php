@@ -1,9 +1,5 @@
 <?php
     get_header();
-    $Filter = array("category_name"=>"fundact","order"=>"ASC","posts_per_page"=>200);
-    $Array = get_posts($Filter);
-    $Filter = array("category_name"=>"techdetails","order"=>"ASC","posts_per_page"=>200);
-    $Array2 = get_posts($Filter);
     $themeRoot = get_template_directory_uri();
     $siteRoot = get_site_url();
 ?>
@@ -25,8 +21,8 @@
     <h1 class="text-bold text-center mb-4">Church Restoration</h1>
     <h3 class="text-bold text-center mb-4">How can I help?</h3>
     <div class="mb-4">
-        <img src="<?=$themeRoot?>/assets/pledge-infor.jpg" class="w-100 d-lg-block d-md-block d-sm-none d-none"/>
-        <img src="<?=$themeRoot?>/assets/pledge-infor-mobile.jpg" class="w-100 d-lg-none d-md-none d-sm-block d-block"/>
+        <img src="<?=$themeRoot?>/assets/Infographic_HFKMyChurchMyHome_WebMode.jpg" class="w-100 d-lg-block d-md-block d-sm-none d-none"/>
+        <img src="<?=$themeRoot?>/assets/Infographic_HFKMyChurchMyHome_Mobile.jpg" class="w-100 d-lg-none d-md-none d-sm-block d-block"/>
     </div>
     <div class="row justify-content-center">
         <div class="col-lg-6 col-md-6 col-sm-12 col-12 col-bottom-fix">
@@ -40,7 +36,8 @@
                     
                     </div>
                 </div>
-<!--                 <div class="card-footer">
+                <!--
+                    <div class="card-footer">
                     <h5 class="text-bold">Target: RM 300,000</h5>
                 </div> -->
             </div>
@@ -68,7 +65,8 @@
                         </div>
                     </div>
                 </div>
-<!--                 <div class="card-footer">
+                <!--
+                    <div class="card-footer">
                     <h5 class="text-bold">Target: RM 350,000</h5>
                 </div> -->
             </div>
@@ -87,17 +85,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="list-group">
-    <?php
-        /*if($Array){
-            foreach($Array as $Info):setup_postdata($Info);
-                $postTitle=$Info -> post_title;
-                $postContent=$Info -> post_content;
-                include("template-parts/bec-card.php");
-            endforeach;
-        }*/
-    ?>
     </div>
 </div>
 <div class="content-container pb-5">
@@ -187,18 +174,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="list-group">
-    <?php
-        /*if($Array){
-            foreach($Array2 as $Info):
-                setup_postdata($Info);
-                $postTitle=$Info -> post_title;
-                $postContent=$Info -> post_content;
-                include("template-parts/bec-card.php");
-            endforeach;
-        }*/
-    ?>
     </div>
 </div>
 <div class="pb-5">
