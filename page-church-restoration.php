@@ -61,7 +61,7 @@
                             <br>
                             AmBank
                             <br>
-                            Payment Reference: RF
+                            Payment Reference: Donation-RF
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
             <div class="card rounded-0">
                 <div class="card-body">
                     <h5 class="text-bold">Important Notes</h5>
-                    <p>Any contributions, donations or sponsorships made using online banking MUST use the reference code of <b>"RF"</b> without the quotation marks.</p>
+                    <p>Any contributions, donations or sponsorships made using online banking MUST use the reference code of <b>"Donation-RF"</b> without the quotation marks.</p>
                     <p>The pledge card is for <b>internal circulation ONLY</b>.</p>
                     <div>
                         Any donors contributing <b>a lump sum of RM25,000.00 and above</b>, 
@@ -176,11 +176,17 @@
         </div>
     </div>
 </div>
+<!-- <div class="content-center">
+    <img  src="<?=$siteRoot?>/wp-content/uploads/2019/03/TenderNotice.png" class="content-center-img">
+</div> -->
 <div class="pb-5">
     <div class="content-container">
         <h3 class="text-bold text-center mb-4">Thank you for supporting our cause</h3>
-        <div>
-            <img src="<?=$themeRoot?>/assets/churchrestab.jpg" class="w-100"/>
+        <div class="restoration-faq-desktop">
+            <img src="<?=$siteRoot?>/wp-content/uploads/2019/03/PledgeCardFAQ_desktop.png" class="w-100"/>
+        </div>
+        <div class="restoration-faq-mobile">
+            <img src="<?=$siteRoot?>/wp-content/uploads/2019/03/PledgeCardFAQ_mobile.png" class="w-100"/>
         </div>
     </div>
 </div>
