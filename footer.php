@@ -96,7 +96,7 @@
 
 			  <!-- Modal Header -->
 			  <div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<button type="button" class="close" data-dismiss="modal" style="color:lightgrey;">&times;</button>
 			  </div>
 
 			  <!-- Modal body -->
