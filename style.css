@@ -413,3 +413,8 @@ a.link-black:hover{
 .modal {
   z-index: 110001 !important;
 }
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
