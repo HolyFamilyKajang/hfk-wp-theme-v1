@@ -89,5 +89,28 @@
                 </div>
             </div>
         </div>
+<?php if(is_front_page()): ?>
+		<div class="modal fade" id="myModal" >
+		  <div class="modal-dialog">
+			<div class="modal-content" style="background-color: transparent; border:none;" >
+
+			  <!-- Modal Header -->
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			  </div>
+
+			  <!-- Modal body -->
+			  <div class="modal-body">
+				<img src="http://www.hfckajang.org.my/wp-content/uploads/2019/05/change-in-venue.jpg" class="w-100">
+			  </div>
+			</div>
+		  </div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#myModal').modal('show');
+			});
+		</script>
+<?php endif;?>
     </body>
 </html>
