@@ -405,3 +405,11 @@ a.link-black:hover{
 #crbanner:hover #crbanner-overlay-content{
     display:flex;
 }
+
+.modal-backdrop {
+  z-index: 110000 !important;
+}
+
+.modal {
+  z-index: 110001 !important;
+}
