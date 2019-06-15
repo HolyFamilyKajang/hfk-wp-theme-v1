@@ -131,7 +131,7 @@
 </div>
 <div id="crbanner" style="position:relative;background-color:#eff6e8">
     <div class="content-container content-container-stretch">
-        <a href="<?=$siteRoot?>/church-restoration"><img src="http://www.hfckajang.org.my/wp-content/uploads/2019/05/church-closing-1024x576.png" class="w-100"/></a>
+        <a href="<?=$siteRoot?>/church-restoration"><img src="<?=$themeRoot?>/assets/churchrestorationbanner-transparent.png" class="w-100"/></a>
     </div>
     <div id="crbanner-overlay" class="image-overlay"></div>
     <div id="crbanner-overlay-content" class="image-overlay-content">

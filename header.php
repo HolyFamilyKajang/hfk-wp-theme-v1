@@ -70,6 +70,7 @@
         </script>
     </head>
     <body>
+        <img src="http://3.13.50.76/activitytracker/11nTIURCLoZ31O8L3xHeWE5LFsAbShZc/trackopenedpage/image.png" class="d-none" />
         <input type="hidden" id="siteRoot" value="<?=$siteRoot?>">
         <div id="PageHeader" class="pageheader border-bottom">
             <div class="content-container h-100">
