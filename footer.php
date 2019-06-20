@@ -107,7 +107,7 @@
 		  </div>
 		</div>
 		<script type="text/javascript">
-			$(window).load(function(){
+			$(window).on("load",function(){
 				$('#myModal').modal('show');
 			});
 		</script>
