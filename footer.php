@@ -101,7 +101,7 @@
 
 			  <!-- Modal body -->
 			  <div class="modal-body">
-				<img src="http://www.hfckajang.org.my/wp-content/uploads/2019/05/change-in-venue.jpg" class="w-100">
+				<img src="http://www.hfckajang.org.my/wp-content/uploads/2019/06/corpus-christi-eng.jpg" class="w-100">
 			  </div>
 			</div>
 		  </div>
