@@ -1,5 +1,8 @@
 <?php
     $siteRoot=get_site_url();
+    $popupImage = GetPopup("popup");
+    if($popupImage=="#") $popup=false;
+    else $popup=true;
 ?>
         <div class="pagefooter border-top py-3 text-lg-left text-md-left text-sm-center text-center">
             <div class="content-container">
@@ -89,7 +92,7 @@
                 </div>
             </div>
         </div>
-<?php if(is_front_page()): ?>
+<?php if(is_front_page() && $popup==true): ?>
 		<div class="modal fade" id="myModal" >
 		  <div class="modal-dialog">
 			<div class="modal-content" style="background-color: transparent; border:none;" >
@@ -101,7 +104,7 @@
 
 			  <!-- Modal body -->
 			  <div class="modal-body">
-				<img src="http://www.hfckajang.org.my/wp-content/uploads/2019/06/corpus-christi-eng.jpg" class="w-100">
+				<a><img src="<?=$popupImage?>" class="w-100"></a>
 			  </div>
 			</div>
 		  </div>
