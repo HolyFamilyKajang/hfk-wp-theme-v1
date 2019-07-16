@@ -31,4 +31,28 @@
             $images[] = wp_get_attachment_url( $image->ID );
         }*/
     }
+
+	function GetPopup($imageName){
+        $imageFilter = array(
+            'post_type'      => 'attachment',
+            'post_mime_type' => 'image/png',
+            'post_status'    => 'inherit',
+            'posts_per_page' => 1,
+            's' => $imageName
+        );
+        
+        $available = new WP_Query( $imageFilter );
+        $URL="#";
+        if($available->posts){
+            foreach ( $available->posts as $image ) {
+                $URL = wp_get_attachment_url( $image->ID );
+            }
+        }
+        return $URL;
+        /*$bulletins = array();
+        foreach ( $availableBulletins->posts as $bulletin ) {
+            var_dump($image);
+            $images[] = wp_get_attachment_url( $image->ID );
+        }*/
+    }
 ?>
