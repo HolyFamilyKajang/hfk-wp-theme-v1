@@ -92,7 +92,7 @@
         </div>
     </div>
 </div>-->
-<div id="MassTimes" class="py-5 border-top border-bottom">
+<div id="MassTimes" class="py-5 border-top">
     <div class="content-container text-center">
         <h2 class="text-bold mb-4">Mass Times</h2>
         <div class="row justify-content-center">
@@ -125,20 +125,6 @@
                 <div>
                     <span class="text-bold">7:00am</span> Mass in English
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="crbanner" style="position:relative;background-color:#eff6e8">
-    <div class="content-container content-container-stretch">
-        <a href="<?=$siteRoot?>/church-restoration"><img src="<?=$themeRoot?>/assets/churchrestorationbanner-transparent.png" class="w-100"/></a>
-    </div>
-    <div id="crbanner-overlay" class="image-overlay"></div>
-    <div id="crbanner-overlay-content" class="image-overlay-content">
-        <div class="content-container text-white">
-            <div class="text-center">
-                <a href="<?=$siteRoot?>/church-restoration-updates" class="btn btn-lg btn-lawrencium">FIND OUT MORE</a>
-                <a href="<?=$siteRoot?>/church-restoration" class="btn btn-lg btn-lawrencium">DONATE</a>
             </div>
         </div>
     </div>

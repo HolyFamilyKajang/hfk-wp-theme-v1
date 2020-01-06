@@ -64,12 +64,6 @@
                             <a href="https://www.franciscanmedia.org/sacraments/">The 7 Sacraments</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-12 col-bottom-fix">
-                        <div class="text-bold">Fund Raising</div>
-                        <div>
-                            <a href="<?=$siteRoot?>/church-restoration">Church Restoration</a>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div class="content-container text-center text-bold fs-80pc">
